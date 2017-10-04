@@ -23,3 +23,8 @@ function addElementToEndOfArray(a, b){
   var c = [...a, b]
   return c
 }
+
+function destructivelyAddElementToEndOfArray(a, b){
+  a.push(b)
+  return a
+}
